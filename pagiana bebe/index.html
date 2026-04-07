@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Baby Steps™ Encyclopedia - The Scientific Blueprint</title>
     
+    <meta name="facebook-domain-verification" content="j1zfcg29xvbbgqok601ysxod7j7ghk" />
+
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '956002246975941');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=956002246975941&ev=PageView&noscript=1"
+    /></noscript>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -23,12 +40,7 @@
         }
 
         html { scroll-behavior: smooth; }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Open Sans', sans-serif;
@@ -36,113 +48,38 @@
             line-height: 1.6;
             background-color: #fff;
             overflow-x: hidden;
-            padding-bottom: 60px; /* Space for mobile CTA */
+            padding-bottom: 60px;
         }
 
-        h1, h2, h3, h4 {
-            font-family: 'Montserrat', sans-serif;
-            line-height: 1.2;
-        }
-
-        /* Layout */
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
+        h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; line-height: 1.2; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
         section { padding: 80px 0; }
         .bg-light { background-color: var(--bg-light); }
         
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, var(--primary-blue) 0%, #1a5b82 100%);
-            color: #fff;
-            text-align: center;
-            padding: 100px 0 80px;
-            position: relative;
+            color: #fff; text-align: center; padding: 100px 0 80px; position: relative;
         }
-
-        .hero h1 {
-            font-size: 3rem;
-            font-weight: 900;
-            margin-bottom: 25px;
-            color: #fff;
-            letter-spacing: -1px;
-        }
-
-        .hero h1 span {
-            color: var(--gold);
-            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-            font-weight: 400;
-            margin-bottom: 35px;
-            opacity: 0.95;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+        .hero h1 { font-size: 3rem; font-weight: 900; margin-bottom: 25px; color: #fff; letter-spacing: -1px; }
+        .hero h1 span { color: var(--gold); text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        .hero p { font-size: 1.3rem; font-weight: 400; margin-bottom: 35px; opacity: 0.95; max-width: 800px; margin-left: auto; margin-right: auto; }
 
         /* Trust Badges */
-        .trust-badges {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin: 20px 0 30px;
-            font-size: 0.95rem;
-            font-weight: 700;
-        }
-
+        .trust-badges { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 15px; margin: 20px 0 30px; font-size: 0.95rem; font-weight: 700; }
         .stars { color: var(--gold); letter-spacing: 2px; }
-        
-        .badge {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(255, 255, 255, 0.15);
-            padding: 10px 18px;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            backdrop-filter: blur(5px);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
+        .badge { display: flex; align-items: center; gap: 8px; background: rgba(255, 255, 255, 0.15); padding: 10px 18px; border-radius: 50px; border: 1px solid rgba(255, 255, 255, 0.3); backdrop-filter: blur(5px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
 
         /* Call to Action Buttons */
-        .cta-wrapper {
-            text-align: center;
-            margin: 40px 0;
-            width: 100%;
-        }
-
+        .cta-wrapper { text-align: center; margin: 40px 0; width: 100%; }
         .cta-btn {
-            display: inline-block;
-            background: linear-gradient(to bottom, var(--cta-color), #c1121f);
-            color: #fff;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.3rem;
-            font-weight: 900;
-            text-decoration: none;
-            padding: 22px 45px;
-            border-radius: 12px;
-            text-transform: uppercase;
-            box-shadow: 0 12px 25px rgba(230, 57, 70, 0.4);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            animation: pulse 2s infinite;
-            width: 100%;
-            max-width: 600px;
-            border: 2px solid #ff4d4d;
+            display: inline-block; background: linear-gradient(to bottom, var(--cta-color), #c1121f);
+            color: #fff; font-family: 'Montserrat', sans-serif; font-size: 1.3rem; font-weight: 900;
+            text-decoration: none; padding: 22px 45px; border-radius: 12px; text-transform: uppercase;
+            box-shadow: 0 12px 25px rgba(230, 57, 70, 0.4); transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            animation: pulse 2s infinite; width: 100%; max-width: 600px; border: 2px solid #ff4d4d;
         }
-
-        .cta-btn:hover {
-            transform: scale(1.05) translateY(-3px);
-            box-shadow: 0 20px 35px rgba(230, 57, 70, 0.5);
-            color: #fff;
-        }
+        .cta-btn:hover { transform: scale(1.05) translateY(-3px); box-shadow: 0 20px 35px rgba(230, 57, 70, 0.5); color: #fff; }
 
         @keyframes pulse {
             0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.7); }
@@ -150,181 +87,72 @@
             100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(230, 57, 70, 0); }
         }
 
-        /* Timers */
-        .timer-box {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900;
-            font-size: 1.6rem;
-            color: var(--cta-color);
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            background: rgba(230, 57, 70, 0.1);
-            padding: 10px 20px;
-            border-radius: 8px;
-            display: inline-flex;
-            border: 1px dashed var(--cta-color);
-        }
+        .timer-box { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 1.6rem; color: var(--cta-color); margin-bottom: 15px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: rgba(230, 57, 70, 0.1); padding: 10px 20px; border-radius: 8px; border: 1px dashed var(--cta-color); }
 
         /* Content Sections */
-        .section-title {
-            font-size: 2.5rem;
-            font-weight: 900;
-            text-align: center;
-            margin-bottom: 50px;
-            color: var(--primary-blue);
-            text-transform: uppercase;
-        }
-
-        .content-block {
-            margin-bottom: 35px;
-            font-size: 1.15rem;
-        }
-
+        .section-title { font-size: 2.5rem; font-weight: 900; text-align: center; margin-bottom: 50px; color: var(--primary-blue); text-transform: uppercase; }
+        .content-block { margin-bottom: 35px; font-size: 1.15rem; }
         .content-block p { margin-bottom: 20px; }
+        .content-block h3 { font-size: 1.6rem; color: var(--trust-blue); margin-bottom: 15px; }
 
-        .content-block h3 {
-            font-size: 1.6rem;
-            color: var(--trust-blue);
-            margin-bottom: 15px;
-        }
+        .foto-vendas { width: 100%; max-width: 700px; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12); margin: 40px auto 20px auto; display: block; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .foto-vendas:hover { transform: scale(1.02); box-shadow: 0 15px 40px rgba(0,0,0,0.18); }
 
-        /* CSS EXCLUSIVO E AUTOMÁTICO PARA AS IMAGENS */
-        .foto-vendas {
-            width: 100%;
-            max-width: 700px;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-            margin: 40px auto 20px auto;
-            display: block;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .foto-vendas:hover {
-            transform: scale(1.02);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.18);
-        }
+        /* Ataques Letais (Cards) */
+        .attack-grid { display: grid; grid-template-columns: 1fr; gap: 25px; margin: 40px 0; }
+        @media(min-width: 768px) { .attack-grid { grid-template-columns: repeat(3, 1fr); } }
+        .attack-card { background: #fff; padding: 30px 20px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); border-top: 5px solid var(--cta-color); text-align: center; transition: transform 0.3s; }
+        .attack-card:hover { transform: translateY(-5px); }
+        .attack-card h3 { color: var(--cta-color); margin-bottom: 15px; font-size: 1.3rem; font-weight: 800; }
+        .attack-card p { font-size: 1.05rem; color: var(--text-muted); }
 
         /* Testimonials */
-        .testimonial-card {
-            background: #fff;
-            border-left: 6px solid var(--gold);
-            padding: 40px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            border-radius: 0 12px 12px 0;
-            position: relative;
-        }
-
-        .testimonial-card i.fa-quote-left {
-            position: absolute;
-            top: 30px;
-            right: 40px;
-            font-size: 4rem;
-            color: rgba(255, 188, 66, 0.1);
-        }
-
-        .testimonial-card p {
-            font-style: italic;
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-            position: relative;
-            z-index: 1;
-            color: #333;
-        }
-
-        .testimonial-author {
-            font-weight: 800;
-            font-family: 'Montserrat', sans-serif;
-            color: var(--primary-blue);
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+        .testimonial-card { background: #fff; border-left: 6px solid var(--gold); padding: 40px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-radius: 0 12px 12px 0; position: relative; }
+        .testimonial-card i.fa-quote-left { position: absolute; top: 30px; right: 40px; font-size: 4rem; color: rgba(255, 188, 66, 0.1); }
+        .testimonial-card p { font-style: italic; font-size: 1.2rem; margin-bottom: 20px; position: relative; z-index: 1; color: #333; }
+        .testimonial-author { font-weight: 800; font-family: 'Montserrat', sans-serif; color: var(--primary-blue); display: flex; align-items: center; gap: 10px; }
 
         /* Guarantee Box */
-        .guarantee-box {
-            border: 4px solid var(--trust-blue);
-            padding: 50px 40px;
-            text-align: center;
-            border-radius: 16px;
-            background: #fff;
-            margin: 60px 0;
-            box-shadow: 0 15px 40px rgba(30, 96, 145, 0.15);
-            position: relative;
-        }
+        .guarantee-box { border: 4px solid var(--trust-blue); padding: 50px 40px; text-align: center; border-radius: 16px; background: #fff; margin: 60px 0; box-shadow: 0 15px 40px rgba(30, 96, 145, 0.15); position: relative; }
+        .guarantee-box::before { content: '\f328'; font-family: 'Font Awesome 6 Free'; font-weight: 900; position: absolute; top: -40px; left: 50%; transform: translateX(-50%); background: #fff; color: var(--gold); font-size: 4rem; padding: 0 20px; }
 
-        .guarantee-box::before {
-            content: '\f328'; /* certificate icon */
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
-            position: absolute;
-            top: -40px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #fff;
-            color: var(--gold);
-            font-size: 4rem;
-            padding: 0 20px;
-        }
-
-        /* FAQ Section */
-        .faq-item {
-            margin-bottom: 15px;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .faq-item summary {
-            padding: 20px;
-            background: #fff;
-            font-weight: 700;
-            font-family: 'Montserrat', sans-serif;
-            cursor: pointer;
-            font-size: 1.1rem;
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+        /* FAQ Section Atualizada */
+        .faq-item { margin-bottom: 15px; border: 2px solid #dee2e6; border-radius: 8px; overflow: hidden; transition: border-color 0.3s; }
+        .faq-item:hover { border-color: var(--trust-blue); }
+        .faq-item summary { padding: 20px; background: #fff; font-weight: 800; font-family: 'Montserrat', sans-serif; cursor: pointer; font-size: 1.15rem; list-style: none; display: flex; justify-content: space-between; align-items: center; color: var(--primary-blue); }
         .faq-item summary::-webkit-details-marker { display: none; }
-        .faq-item summary:after {
-            content: '\f078';
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
-            color: var(--primary-blue);
-        }
-        .faq-item[open] summary:after { content: '\f077'; }
-        .faq-item p {
-            padding: 0 20px 20px;
-            background: #fff;
-            color: var(--text-muted);
-        }
+        .faq-item summary:after { content: '\f067'; font-family: 'Font Awesome 6 Free'; font-weight: 900; color: var(--cta-color); }
+        .faq-item[open] summary:after { content: '\f068'; }
+        .faq-item p { padding: 0 20px 20px; background: #fff; color: var(--text-dark); font-size: 1.1rem; line-height: 1.7; border-top: 1px solid #eee; margin-top: 10px; padding-top: 15px; }
+
+        /* Caixa de Preço (Ancoragem Agressiva) */
+        .offer-price { background: #fff; border: 4px solid var(--gold); padding: 40px 20px; border-radius: 15px; text-align: center; max-width: 600px; margin: 40px auto; box-shadow: 0 15px 30px rgba(0,0,0,0.1); position: relative; overflow: hidden; }
+        .offer-price::before { content: "LIFETIME ACCESS"; position: absolute; top: 0; left: 0; width: 100%; background: var(--gold); color: #fff; font-weight: 900; padding: 5px 0; letter-spacing: 2px; }
+        .strike { text-decoration: line-through; color: #e74c3c; font-size: 1.6rem; font-weight: 900; margin-top: 20px; }
+        .final-price { font-size: 3.8rem; color: #27ae60; font-weight: 900; margin: 5px 0 15px; line-height: 1; letter-spacing: -1px; }
 
         /* Fixed Mobile CTA */
-        .mobile-cta {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 15px 20px;
-            box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
-            z-index: 9999;
-            display: none; /* Hidden by default, shown on mobile via media queries */
-        }
-        .mobile-cta .cta-btn {
-            padding: 15px;
-            font-size: 1.1rem;
-            margin: 0;
-            animation: none; /* Remove pulse for fixed bottom so it's not distracting */
-        }
+        .mobile-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); padding: 15px 20px; box-shadow: 0 -5px 20px rgba(0,0,0,0.1); z-index: 9998; display: none; }
+        .mobile-cta .cta-btn { padding: 15px; font-size: 1.1rem; margin: 0; animation: none; }
 
-        /* Responsive Design */
+        /* Exit Intent Pop-up CSS */
+        .exit-popup-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8); z-index: 99999;
+            display: none; justify-content: center; align-items: center;
+            backdrop-filter: blur(5px);
+        }
+        .exit-popup-content {
+            background: #fff; width: 90%; max-width: 500px;
+            padding: 40px 30px; border-radius: 15px; text-align: center;
+            position: relative; border: 5px solid var(--cta-color);
+        }
+        .close-popup {
+            position: absolute; top: 10px; right: 15px;
+            font-size: 1.5rem; cursor: pointer; color: #999; transition: color 0.3s;
+        }
+        .close-popup:hover { color: var(--cta-color); }
+
         @media (max-width: 768px) {
             .hero h1 { font-size: 2rem; }
             .hero p { font-size: 1.1rem; }
@@ -333,8 +161,9 @@
             .cta-btn { font-size: 1.1rem; padding: 18px 25px; }
             .guarantee-box { padding: 40px 20px; }
             .mobile-cta { display: block; }
-            body { padding-bottom: 90px; } /* extra space for the fixed bar */
+            body { padding-bottom: 90px; }
             .foto-vendas { margin: 25px auto 15px auto; border-radius: 8px; }
+            .final-price { font-size: 3rem; }
         }
     </style>
 </head>
@@ -367,9 +196,7 @@
     <section class="bg-light">
         <div class="container">
             <h2 class="section-title">THE DAILY WAR ZONE</h2>
-            
             <img src="imagens/problema.jfif" alt="Toddler pushing spoon away in anger" class="foto-vendas">
-
             <div class="content-block">
                 <p>We know the exact level of exhaustion you have reached. You choose the best ingredients, prepare everything with unconditional love, bring the spoon to their mouth, and suddenly... the nightmare begins.</p>
                 <p><strong>The tightly locked jaw. The screaming. The plate thrown on the floor.</strong></p>
@@ -381,9 +208,7 @@
     <section>
         <div class="container">
             <h2 class="section-title" style="color: var(--cta-color);">THE BIOLOGICAL CLOCK DOESN'T WAIT</h2>
-            
             <img src="imagens/stress.jfif" alt="Exhausted mother in messy kitchen" class="foto-vendas">
-
             <div class="content-block">
                 <p>Cleaning up the mess is exhausting, but the psychological torture is what is truly tearing you apart inside.</p>
                 <p>Anxiety strikes hours before lunch. But the worst part happens at night, when the house is silent. The silent fear takes over:</p>
@@ -400,6 +225,32 @@
     </section>
 
     <section class="bg-light">
+        <div class="container">
+            <h2 class="section-title" style="color: #2b2d42;">WHAT IS THE REAL COST OF DOING NOTHING?</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 10px;">Before you think about the price of this Blueprint, look at what you are ALREADY paying today:</p>
+            
+            <div class="attack-grid">
+                <div class="attack-card">
+                    <h3>🗑️ The Grocery Waste</h3>
+                    <p>How many dollars did you throw away this week on organic food your baby refused? Most moms waste about <strong>$50 a week</strong> on failed attempts. In just 2 weeks, you've already paid for this Blueprint. From here on, it's pure profit and peace of mind.</p>
+                </div>
+                <div class="attack-card">
+                    <h3>🩺 The Medical Bills</h3>
+                    <p>A single consultation with a Pediatric Nutritionist in the US costs between <strong>$150 to $300</strong>. And what do they give you? A generic sheet of rules. Here, you get the complete WHO system, step-by-step, for a fraction of that value.</p>
+                </div>
+                <div class="attack-card">
+                    <h3>📱 The Google Terror</h3>
+                    <p>Google is not your friend, it's an anxiety machine. One blog says give egg, another says it's fatal. Close the 50 tabs causing you stress. You only need ONE scientific source of truth from now on.</p>
+                </div>
+            </div>
+            
+            <div class="cta-wrapper">
+                <a href="https://pay.hotmart.com/Q105216153R?checkoutMode=10" class="cta-btn">I want to stop losing money and sleep <i class="fas fa-lock" style="margin-left:10px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="container">
             <h2 class="section-title">PURE SCIENCE IN YOUR KITCHEN</h2>
             
@@ -435,18 +286,12 @@
                 <img src="imagens/abacate.jfif" alt="Creamy avocado and soft-boiled egg yolk toast" class="foto-vendas">
                 <div class="content-block"><p><strong>The Therapeutic Weight-Gainer Toast:</strong> Worried about the pediatrician's growth chart? This high-calorie, healthy-fat recipe was created to promote immediate healthy weight gain and induce deep, restorative sleep all night long.</p></div>
             </div>
-
-            <div class="cta-wrapper">
-                <div class="timer-box"><i class="fas fa-stopwatch"></i> URGENT: OFFER EXPIRES IN <span class="countdown-display">05:00</span></div><br>
-                <a href="https://pay.hotmart.com/Q105216153R?checkoutMode=10" class="cta-btn">I Want Immediate Access To The WHO Protocol</a>
-            </div>
         </div>
     </section>
 
-    <section>
+    <section class="bg-light">
         <div class="container">
             <h2 class="section-title">UNQUESTIONABLE SOCIAL PROOF</h2>
-            
             <img src="imagens/bebe.jfif" alt="Joyful baby with a big toothless smile" class="foto-vendas">
             
             <div class="testimonial-card">
@@ -471,37 +316,63 @@
         </div>
     </section>
 
-    <section class="bg-light">
+    <section>
         <div class="container">
             <div class="guarantee-box">
                 <h2 style="font-size: 2.2rem; margin-bottom: 20px; color: var(--primary-blue); font-weight: 900;">THE 30-DAY "EMPTY PLATE" GUARANTEE</h2>
                 <p style="margin-bottom: 15px; font-size: 1.2rem;">Your security is 100% absolute. Download THE BABY STEPS™ ENCYCLOPEDIA right now. Prepare the meals based on the WHO standards.</p>
-                <p style="margin-bottom: 20px; font-size: 1.2rem;">If, within <strong>7 days</strong>, your baby does not devour the food. If you do not see the anxiety completely vanish from your home. If this isn't the easiest thing you've ever done... Send us a single email.</p>
+                <p style="margin-bottom: 20px; font-size: 1.2rem;">If, within <strong>30 days</strong>, your baby does not devour the food. If you do not see the anxiety completely vanish from your home. If this isn't the easiest thing you've ever done... Send us a single email.</p>
                 <p style="font-weight: 800; font-size: 1.3rem; color: var(--trust-blue); padding: 15px; border: 2px dashed var(--trust-blue); background: #f0f8ff;">We will refund 100% of your money in the same minute. No forms to fill out, no questions asked. All the risk is on our shoulders.</p>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="bg-light">
         <div class="container">
-            <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+            <h2 class="section-title">FREQUENTLY ASKED QUESTIONS <br><span style="font-size: 1.2rem; text-transform: none; color: var(--text-muted);">(From real moms just like you)</span></h2>
             
             <details class="faq-item">
-                <summary>Is this suitable for a baby with allergies?</summary>
-                <p>Yes. The Blueprint focuses on whole, natural foods. All recipes are easily adaptable, allowing you to swap out specific allergens while maintaining the core nutritional value based on WHO guidelines.</p>
+                <summary>I work all day and come home exhausted. Will this require hours in the kitchen?</summary>
+                <p><strong>Absolutely not.</strong> This Blueprint was designed for real moms, not Instagram chefs. Our recipes and routines are based on the "15-Minute Rule." If it takes longer than 15 minutes to prepare, it didn't make it into our guide. The goal is to give you your free time back, not enslave you to the stove.</p>
             </details>
+            
             <details class="faq-item">
-                <summary>My baby is already 2 years old, is it too late?</summary>
-                <p>Absolutely not! While the first year is crucial, toddlers' brains are still rapidly developing. The earlier you start using these scientifically formulated textures and flavors, the faster you will reverse picky eating habits.</p>
+                <summary>What if I buy it and my baby still refuses everything?</summary>
+                <p>That is exactly why our <strong>30-Day "Empty Plate" Guarantee</strong> exists. You are not risking a single cent today. Buy the Blueprint, apply the psychological techniques. If your baby isn't eating better and you don't feel a massive relief in your anxiety, email us. We refund your $97 immediately, and you can keep the materials for your time. The only risk is staying with the same stress you have today.</p>
             </details>
+            
             <details class="faq-item">
-                <summary>Do I need to be a good cook?</summary>
-                <p>No. These recipes are designed for exhausted, busy parents. If you can boil water and mash a potato, you can execute this blueprint perfectly in 15 minutes or less.</p>
+                <summary>I feel like a bad mom because feeding time is a nightmare. Is this my fault?</summary>
+                <p><strong>Stop right there. It is NOT your fault.</strong> Modern society expects moms to work like they don't have kids, and raise kids like they don't work. You don't lack love; you were just missing the right tools. This scientific Blueprint is exactly the tool that was missing to turn things around.</p>
             </details>
+
             <details class="faq-item">
-                <summary>Is my payment secure?</summary>
-                <p>100%. Your payment is processed through a state-of-the-art 256-bit encrypted checkout system, the same security level used by major international banks.</p>
+                <summary>My family says I'm wasting money and that "in their time kids ate everything."</summary>
+                <p>In their time, childhood obesity, severe food allergies, and developmental delays weren't a massive epidemic. Your baby, your rules. This isn't just about "giving food", it's about protecting your child's IQ and immunity for the rest of their life. When your baby is the healthiest one at daycare, they will understand.</p>
             </details>
+
+            <details class="faq-item">
+                <summary>Is my payment really secure?</summary>
+                <p>100%. Your payment is processed through Hotmart, using a state-of-the-art 256-bit encrypted checkout system, the exact same security level used by major international banks. We never see your credit card details.</p>
+            </details>
+        </div>
+    </section>
+
+    <section style="padding-bottom: 20px; padding-top: 60px;">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 30px; font-size: 2rem;">ORDER TODAY AND GET THESE EXCLUSIVE BONUSES FREE</h2>
+            
+            <div style="background: #fff; border: 2px dashed var(--cta-color); padding: 30px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <h3 style="color: var(--cta-color); font-size: 1.5rem; margin-bottom: 10px;">🎁 Bonus 1: The "Eating Out" Survival Guide</h3>
+                <p><strong>Value: $29.00 (Yours FREE)</strong></p>
+                <p style="margin-top: 10px;">How to navigate restaurants, family dinners, and vacations without ruining your baby's progress or dealing with public meltdowns.</p>
+            </div>
+
+            <div style="background: #fff; border: 2px dashed var(--cta-color); padding: 30px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <h3 style="color: var(--cta-color); font-size: 1.5rem; margin-bottom: 10px;">🎁 Bonus 2: The 5-Minute Grocery Cheat Sheet</h3>
+                <p><strong>Value: $19.00 (Yours FREE)</strong></p>
+                <p style="margin-top: 10px;">A printable shopping list that saves you hours at the supermarket. Know exactly what to buy to cover all WHO nutritional bases on a budget.</p>
+            </div>
         </div>
     </section>
 
@@ -512,15 +383,17 @@
             <div class="content-block text-center">
                 <p>Let's look at the cold, hard facts.</p>
                 <p>An emergency consultation with a top-tier pediatric nutritionist will easily drain <strong>$250+</strong> from your wallet for a single hour. Buying store-bought, preservative-filled "premium" baby jars will cost you <strong>$150 to $200 every single month</strong>.</p>
-                <p>Industry experts advised us to price this blueprint at <strong>$497</strong>, and it would still be an absolute steal for the peace of mind it delivers.</p>
-                <p style="font-weight: 800; font-size: 1.4rem; color: var(--primary-blue); margin: 30px 0;">But you won't pay $497 today. You won't even pay $197.</p>
+                <p>Industry experts advised us to price this blueprint at <strong>$297</strong>, and it would still be an absolute steal for the peace of mind it delivers.</p>
+                <p style="font-weight: 800; font-size: 1.4rem; color: var(--primary-blue); margin: 30px 0;">But you won't pay $297 today.</p>
                 <p>Because we believe no parent should be priced out of their child's health, if you act before the timer below hits zero, you get lifetime access for a ridiculously low, one-time payment of:</p>
             </div>
 
             <div class="offer-price">
-                <div class="strike">Normal Price: $497.00</div>
+                <div class="strike">Total Value: $345.00</div>
                 <div class="final-price">Only $97.00</div>
-                <div class="trust-badges" style="margin-top: 15px;">
+                <p style="color: var(--text-muted); font-weight: bold; margin-bottom: 20px;">(That's less than what you waste on refused groceries in 2 weeks)</p>
+                
+                <div class="trust-badges" style="margin-top: 15px; border-top: 1px solid #eee; padding-top: 20px;">
                     <div class="badge" style="background:#2b2d42; color:#fff;"><i class="fas fa-file-pdf"></i> Lifetime Digital Access</div>
                     <div class="badge" style="background:#2b2d42; color:#fff;"><i class="fas fa-mobile-alt"></i> Access on Any Device</div>
                 </div>
@@ -529,7 +402,7 @@
             <div class="cta-wrapper" id="checkout">
                 <div class="timer-box"><i class="fas fa-exclamation-triangle"></i> URGENT: OFFER EXPIRES IN <span class="countdown-display">05:00</span></div>
                 
-                <p class="warning-text">WARNING: THIS PAGE WILL EXPIRE.</p>
+                <p class="warning-text" style="color: #c1121f; font-weight: 900; margin-top: 20px;">WARNING: THIS PAGE WILL EXPIRE.</p>
                 <p style="text-align: center; margin-bottom: 30px; font-size: 1rem; max-width: 700px; margin-left: auto; margin-right: auto;">This is a strictly restricted batch offer. If this timer hits zero, the page will refresh, your discounted spot will be given to the next person in line, and the price will jump to its true retail value.</p>
                 
                 <a href="https://pay.hotmart.com/Q105216153R?checkoutMode=10" class="cta-btn" style="font-size: 1.4rem; padding: 25px 40px;">YES! I Want To Buy The Scientific Blueprint for $97 Now!</a>
@@ -547,6 +420,17 @@
 
     <div class="mobile-cta">
         <a href="https://pay.hotmart.com/Q105216153R?checkoutMode=10" class="cta-btn" style="display: block; text-align: center; font-size: 1.1rem; padding: 15px;">Buy Now for $97 - Offer Ends in <span class="countdown-display">05:00</span></a>
+    </div>
+
+    <div class="exit-popup-overlay" id="exitPopup">
+        <div class="exit-popup-content">
+            <span class="close-popup" onclick="document.getElementById('exitPopup').style.display='none'">&times;</span>
+            <h2 style="color: var(--cta-color); font-size: 2rem; font-weight: 900; margin-bottom: 15px;">WAIT!</h2>
+            <h3 style="color: var(--text-dark); margin-bottom: 15px;">Don't leave your baby's health to chance.</h3>
+            <p style="margin-bottom: 25px; font-size: 1.1rem;">You are one click away from ending the kitchen battles forever. Remember our 30-Day Money-Back Guarantee: You have absolutely nothing to lose!</p>
+            <a href="https://pay.hotmart.com/Q105216153R?checkoutMode=10" class="cta-btn" style="font-size: 1.2rem; padding: 15px 30px;">CLAIM MY BLUEPRINT NOW</a>
+            <p style="margin-top: 15px; font-size: 0.8rem; cursor: pointer; text-decoration: underline; color: #777;" onclick="document.getElementById('exitPopup').style.display='none'">No thanks, I choose to keep struggling at mealtime.</p>
+        </div>
     </div>
 
     <script>
@@ -569,6 +453,16 @@
 
             updateTimer();
             setInterval(updateTimer, 1000);
+        });
+
+        // 2. POP-UP DE INTENÇÃO DE SAÍDA (Apenas Desktop para não chatear no telemóvel)
+        let popupShown = false;
+        document.addEventListener('mouseleave', function(e) {
+            // Se o rato sair pela parte de cima do ecrã (direção das abas do navegador)
+            if(e.clientY < 0 && !popupShown) {
+                document.getElementById('exitPopup').style.display = 'flex';
+                popupShown = true;
+            }
         });
     </script>
 </body>
